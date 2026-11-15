@@ -1,0 +1,308 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="The Olive Table brings refined Mediterranean-inspired dining, thoughtful ingredients and warm hospitality to Banjara Hills, Hyderabad."
+    />
+    <meta name="theme-color" content="#17130f" />
+    <title>The Olive Table | Where Every Meal Becomes a Memory</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=DM+Sans:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="js/script.js" defer></script>
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="site-header">
+        <a class="brand-mark" href="#home" aria-label="The Olive Table home">
+          <svg viewBox="0 0 40 40" role="img" aria-label="Olive branch">
+            <circle cx="20" cy="20" r="18" />
+            <path d="M12 28c8-4 12-10 15-17M15 25c-4-1-6-4-6-7 4 0 7 2 8 5m4-6c-1-4 0-7 3-10 3 3 3 7 1 10m-3 5c4 0 7 2 9 5-4 2-8 1-10-2" />
+          </svg>
+        </a>
+
+        <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="primary-nav">
+          <span></span><span></span><span class="sr-only">Toggle navigation</span>
+          <span class="menu-toggle-label">Menu</span>
+        </button>
+
+        <nav class="main-nav" id="primary-nav" aria-label="Main navigation">
+          <a href="#home">Home</a>
+          <a href="#menu">Menu</a>
+          <a href="#about">About</a>
+          <a href="#contact">Reservation</a>
+          <a href="#contact">Contact</a>
+        </nav>
+
+        <a class="book-table" href="#contact">Book a Table</a>
+      </header>
+
+      <main id="home">
+        <section class="hero" aria-label="The Olive Table dining experience">
+          <div class="hero-slides">
+            <img
+              class="hero-slide is-active"
+              src="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?auto=format&fit=crop&w=1800&q=85"
+              alt="A beautifully plated fine-dining dish in warm restaurant light"
+              fetchpriority="high"
+            />
+            <img
+              class="hero-slide"
+              src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=1800&q=85"
+              alt="An elegant restaurant dining room prepared for guests"
+              aria-hidden="true"
+            />
+          </div>
+          <div class="hero-shade"></div>
+          <p class="hero-kicker">The Olive Table · Hyderabad</p>
+          <h1>Experience<br />Fine Dining</h1>
+          <div class="hero-controls" aria-label="Hero image controls">
+            <button type="button" class="hero-arrow" data-slide="previous" aria-label="Previous image">←</button>
+            <span class="hero-count" aria-live="polite">01 / 02</span>
+            <button type="button" class="hero-arrow" data-slide="next" aria-label="Next image">→</button>
+          </div>
+        </section>
+
+        <section class="editorial-composition" aria-label="Menu, philosophy and guest experiences">
+          <div class="composition-menu">
+            <div class="composition-heading">
+              <p class="eyebrow">A taste of the table</p>
+              <h2>Our Menu</h2>
+            </div>
+
+            <a class="plus-link" href="#menu" aria-label="Explore the full menu">+</a>
+
+            <a class="food-platform platform-one" href="#menu" aria-label="Explore our Mediterranean starters">
+              <span class="platform-top">
+                <img
+                  src="https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=700&q=85"
+                  alt="A colourful Mediterranean starter with fresh vegetables"
+                  loading="lazy"
+                />
+              </span>
+            </a>
+            <a class="food-platform platform-two" href="#menu" aria-label="Explore our chef's main courses">
+              <span class="platform-top">
+                <img
+                  src="https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=700&q=85"
+                  alt="A chef-prepared plate of roasted ingredients and herbs"
+                  loading="lazy"
+                />
+              </span>
+            </a>
+            <a class="food-platform platform-three" href="#menu" aria-label="Explore our signature dishes">
+              <span class="platform-top">
+                <img
+                  src="https://images.unsplash.com/photo-1559847844-5315695dadae?auto=format&fit=crop&w=700&q=85"
+                  alt="A plated pasta dish finished with fresh herbs"
+                  loading="lazy"
+                />
+              </span>
+            </a>
+
+            <div class="testimonials">
+              <p class="eyebrow">From our table</p>
+              <h2>Testimonials</h2>
+              <p>Every memorable dining experience begins with thoughtful details, exceptional flavours and warm hospitality.</p>
+            </div>
+          </div>
+
+          <article class="about-card" id="about">
+            <img
+              src="https://images.unsplash.com/photo-1577219491135-ce391730fb2c?auto=format&fit=crop&w=1200&q=85"
+              alt="Professional chef preparing a dish in a softly lit restaurant kitchen"
+              loading="lazy"
+            />
+            <div class="about-card-shade"></div>
+            <div class="about-card-copy">
+              <p class="eyebrow">Our philosophy</p>
+              <h2>About Us</h2>
+              <p>Thoughtfully prepared cuisine, exceptional ingredients and a passion for creating memorable dining experiences.</p>
+              <a href="#story">Discover our story <span aria-hidden="true">↗</span></a>
+            </div>
+          </article>
+
+          <article class="reviews-card">
+            <p class="eyebrow">A note from our guests</p>
+            <h2>Customer Reviews</h2>
+            <p>Discover the experiences and moments that make dining with us special.</p>
+            <a class="gold-link" href="#guest-stories">Read Our Stories</a>
+          </article>
+        </section>
+
+        <section class="editorial-cards" id="guest-stories" aria-label="Discover and gallery">
+          <article class="editorial-card editorial-copy">
+            <p class="eyebrow">At the table</p>
+            <h2>Discover</h2>
+            <p>Experience thoughtfully crafted cuisine, elegant surroundings and warm hospitality.</p>
+            <a href="#story">Explore More <span aria-hidden="true">↗</span></a>
+          </article>
+          <a
+            class="editorial-card editorial-photo photo-one"
+            href="#gallery"
+            aria-label="View photographs of our dining table"
+          >
+            <img
+              src="https://images.unsplash.com/photo-1540189549336-e6e99c3679fe?auto=format&fit=crop&w=900&q=85"
+              alt="A beautifully arranged spread of Mediterranean dishes"
+              loading="lazy"
+            />
+          </a>
+          <article class="editorial-card editorial-copy">
+            <p class="eyebrow">The details</p>
+            <h2>Gallery</h2>
+            <p>Explore beautiful dishes, carefully considered details and memorable dining moments.</p>
+            <a href="#gallery">View Gallery <span aria-hidden="true">↗</span></a>
+          </article>
+          <a
+            class="editorial-card editorial-photo photo-two"
+            href="#gallery"
+            aria-label="Browse our restaurant and food gallery"
+          >
+            <img
+              src="https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=900&q=85"
+              alt="Overhead view of an abundant table of shared dishes"
+              loading="lazy"
+            />
+          </a>
+        </section>
+
+        <section class="story-strip" id="story">
+          <p class="eyebrow">Where every meal becomes a memory</p>
+          <p>
+            Inspired by Mediterranean traditions and shaped by modern creativity, The Olive Table brings people together with seasonal ingredients and gracious hospitality.
+          </p>
+          <a href="#contact">Plan your visit <span aria-hidden="true">↗</span></a>
+        </section>
+
+        <section class="menu-section" id="menu">
+          <div class="section-title">
+            <p class="eyebrow">Our menu · made with care</p>
+            <h2>Good things, thoughtfully made.</h2>
+          </div>
+          <div class="menu-grid">
+            <article class="menu-category">
+              <h3>Starters</h3>
+              <ul>
+                <li><div><span>Mediterranean Bruschetta</span><small>Tomato, basil and olive oil on toasted sourdough</small></div><strong>₹249</strong></li>
+                <li><div><span>Creamy Mushroom Soup</span><small>Silky soup with thyme, cream and roasted mushrooms</small></div><strong>₹199</strong></li>
+                <li><div><span>Crispy Herb Potatoes</span><small>Golden potatoes with rosemary and roasted garlic</small></div><strong>₹229</strong></li>
+                <li><div><span>Classic Greek Salad</span><small>Garden greens, feta, olives and crisp cucumber</small></div><strong>₹279</strong></li>
+              </ul>
+            </article>
+            <article class="menu-category">
+              <h3>Main Course</h3>
+              <ul>
+                <li><div><span>Creamy Alfredo Pasta</span><small>Parmesan cream, cracked pepper and fresh herbs</small></div><strong>₹399</strong></li>
+                <li><div><span>Mediterranean Grilled Vegetables</span><small>Seasonal vegetables with a bright herb dressing</small></div><strong>₹349</strong></li>
+                <li><div><span>Herb Butter Grilled Chicken</span><small>Grilled chicken with lemon and fragrant herb butter</small></div><strong>₹449</strong></li>
+                <li><div><span>Signature Olive Table Platter</span><small>A chef-curated selection of Mediterranean favourites</small></div><strong>₹499</strong></li>
+              </ul>
+            </article>
+            <article class="menu-category">
+              <h3>Desserts</h3>
+              <ul>
+                <li><div><span>Classic Tiramisu</span><small>Espresso-soaked layers finished with cocoa</small></div><strong>₹249</strong></li>
+                <li><div><span>Chocolate Lava Cake</span><small>Warm chocolate cake with a soft molten centre</small></div><strong>₹229</strong></li>
+                <li><div><span>New York Cheesecake</span><small>Rich baked cheesecake with seasonal berries</small></div><strong>₹269</strong></li>
+                <li><div><span>Vanilla Bean Panna Cotta</span><small>Delicate vanilla cream with fresh fruit</small></div><strong>₹249</strong></li>
+              </ul>
+            </article>
+            <article class="menu-category">
+              <h3>Beverages</h3>
+              <ul>
+                <li><div><span>Classic Iced Coffee</span><small>Slow chilled coffee with a creamy finish</small></div><strong>₹179</strong></li>
+                <li><div><span>Fresh Lemon Mojito</span><small>Fresh lime, mint and sparkling water</small></div><strong>₹149</strong></li>
+                <li><div><span>Strawberry Milkshake</span><small>Fresh strawberries blended until smooth</small></div><strong>₹199</strong></li>
+                <li><div><span>Signature Cold Brew</span><small>Slow-steeped coffee served over ice</small></div><strong>₹189</strong></li>
+              </ul>
+            </article>
+          </div>
+        </section>
+
+        <section class="gallery-section" id="gallery">
+          <div class="section-title">
+            <p class="eyebrow">A closer look</p>
+            <h2>Moments around the table.</h2>
+          </div>
+          <div class="gallery-grid">
+            <img src="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?auto=format&fit=crop&w=850&q=85" alt="Fine-dining dish presented on a ceramic plate" loading="lazy" />
+            <img src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=850&q=85" alt="Warmly lit restaurant interior with laid tables" loading="lazy" />
+            <img src="https://images.unsplash.com/photo-1551024601-bec78aea704b?auto=format&fit=crop&w=850&q=85" alt="Chocolate dessert prepared for a restaurant guest" loading="lazy" />
+            <img src="https://images.unsplash.com/photo-1559339352-11d035aa65de?auto=format&fit=crop&w=850&q=85" alt="Relaxed restaurant dining atmosphere" loading="lazy" />
+            <img src="https://images.unsplash.com/photo-1559847844-5315695dadae?auto=format&fit=crop&w=850&q=85" alt="Fresh pasta with herbs and a delicate sauce" loading="lazy" />
+            <img src="https://images.unsplash.com/photo-1515003197210-e0cd7184f8b5?auto=format&fit=crop&w=850&q=85" alt="Shared Mediterranean plates arranged for dinner" loading="lazy" />
+          </div>
+        </section>
+
+        <section class="reservation-callout">
+          <div>
+            <p class="eyebrow">An evening to remember</p>
+            <h2>Your Table Is Waiting.</h2>
+            <p>Make time for good food, wonderful company and unforgettable experiences.</p>
+          </div>
+          <a class="gold-link" href="#contact">Book a Table</a>
+        </section>
+      </main>
+
+      <footer class="site-footer" id="contact">
+        <div class="footer-grid">
+          <section class="footer-brand">
+            <a class="brand-mark" href="#home" aria-label="The Olive Table home">
+              <svg viewBox="0 0 40 40" aria-hidden="true">
+                <circle cx="20" cy="20" r="18" />
+                <path d="M12 28c8-4 12-10 15-17M15 25c-4-1-6-4-6-7 4 0 7 2 8 5m4-6c-1-4 0-7 3-10 3 3 3 7 1 10m-3 5c4 0 7 2 9 5-4 2-8 1-10-2" />
+              </svg>
+            </a>
+            <h2>The Olive Table</h2>
+            <p>Thoughtful food, gracious hospitality and beautiful moments shared around the table.</p>
+            <address>Banjara Hills, Hyderabad,<br />Telangana, India</address>
+            <div class="social-links" aria-label="Social media">
+              <a href="https://www.instagram.com/" aria-label="Instagram">ig</a>
+              <a href="https://www.facebook.com/" aria-label="Facebook">f</a>
+              <a href="https://www.pinterest.com/" aria-label="Pinterest">p</a>
+            </div>
+          </section>
+
+          <nav class="footer-column" aria-label="Footer navigation">
+            <h3>Explore</h3>
+            <a href="#home">Home</a>
+            <a href="#menu">Our Menu</a>
+            <a href="#about">About Us</a>
+            <a href="#gallery">Gallery</a>
+            <a href="#contact">Reservations</a>
+          </nav>
+
+          <section class="footer-column">
+            <h3>Visit Us</h3>
+            <p><a href="tel:+919876543210">+91 98765 43210</a></p>
+            <p><a href="mailto:hello@theolivetable.example">hello@theolivetable.example</a></p>
+            <p>Monday – Sunday<br />12:00 PM – 11:00 PM</p>
+            <p class="sample-note">Fictional sample contact details; replace before publishing.</p>
+          </section>
+
+          <div class="footer-map">
+            <iframe
+              title="Map of Banjara Hills, Hyderabad"
+              src="https://www.google.com/maps?q=Banjara%20Hills%2C%20Hyderabad%2C%20India&output=embed"
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+              allowfullscreen
+            ></iframe>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <span>© 2026 The Olive Table. All Rights Reserved.</span>
+          <span>Where Every Meal Becomes a Memory.</span>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
